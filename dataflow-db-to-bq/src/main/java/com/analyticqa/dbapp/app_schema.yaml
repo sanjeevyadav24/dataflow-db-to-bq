@@ -1,0 +1,12 @@
+- query: "select * from users"
+  output_table_name: users
+  fields:
+    - name: id
+      type: INT64
+      mode: REQUIRED
+    - name: avatar_url
+      type: STRING
+      mode: REQUIRED
+    - name: nick_name
+      type: STRING
+      mode: REQUIRED
